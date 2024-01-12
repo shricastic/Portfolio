@@ -429,7 +429,7 @@ article .icon {
 #inputform input{
   border-radius: 0.6rem;
   padding: 0.4rem;
-  border: solid rgb(163, 163, 163) 0.12rem;
+  border: solid rgb(163, 163, 163) 0.1rem;
 }
 
 #inputform button{
