@@ -370,35 +370,44 @@
           />
           <p><a href="https://github.com/Shricastic7">Shricastic7</a></p>
         </div>
+
       </div>
-     
       
-      <!-- added form here       -->
       <div class="contact-info-upper-container">
-        <div class="contact-info-container formlabel">
-          <p>Name</p> <input type="text" name="name" />
-        </div>
-
-        <div class="contact-info-container formlabel">
-         <p>Email</p><input type="email" name="email" />
-        </div>
         
-        <div class="contact-info-container">
-          <button type="submit">Send</button>
-        </div>
+        <form name="contact" method="POST" netlify>
+          <div class="mailpart">
+            <p>
+              <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email: <input type="email" name="email" /></label>
+            </p>
+          </div>
+         
+          <br>
+          <div class="msgpart">
+            <p>
+              <label><textarea name="message" placeholder="your message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </div>
+          
+        </form>
         
-      </div>       
-
+        
+      </div>
+  
+ 
     </section>
-    
+
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#profile">go to top</a></li>
           </ul>
         </div>
       </nav>
