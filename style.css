@@ -391,7 +391,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
 }
 
 .contact-info-upper-container {
@@ -425,7 +425,7 @@ article .icon {
   height: 2.5rem;
 }
 
-/* added css for form here */
+/* form creation */
 .contact-info-container input{
   border-radius: 0.6rem;
   padding: 0.4rem;
@@ -441,16 +441,65 @@ article .icon {
 }
 
 .formlabel p{
-  color: black ;
+  color: black;
 }
 
+/* Form Styles */
 
+
+
+form input{
+  border-radius: 0.3rem;
+  font-size: large;
+  border: solid black 0.1rem;
+  padding: 0.2rem;
+}
+form textarea{
+  border-radius: 0.3rem;
+  font: larger;
+  border-radius: 0.3rem;
+  border: solid black 0.1rem;
+  padding: 0.2rem;
+  width: 300px;
+}
+
+.mailpart{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  font-size: large;
+  column-gap: 1rem;   
+}
+
+.msgpart{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  font-size: large;
+  margin: 0.5rem;
+  column-gap: 0.5rem;
+  margin-top: -1rem;
+}
+
+.msgpart button{
+  font-size: large;
+  padding: 0.2rem;
+  background-color: black;
+  color: white
+}
+
+.msgpart button:hover{
+  background-color: white;
+  color: black;
+}
 
 
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 10vh;
   margin: 0 1rem;
 }
 
