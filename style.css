@@ -319,6 +319,12 @@ section {
   margin: auto 0;
 }
 
+.text-container p {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: black;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
