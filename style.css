@@ -147,10 +147,14 @@ a:hover {
 }
 
 /* SECTIONS */
+.section-class{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -158,16 +162,17 @@ section {
 
 .section-container {
   display: flex;
+  flex-direction: column;
 }
 
 /* PROFILE SECTION */
 
 #profile {
+  height: 84vh;
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
-  
+  margin: 0 0;
 }
 
 .profile-pic{
@@ -270,6 +275,10 @@ section {
 
 #about {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-containers {
@@ -279,8 +288,9 @@ section {
 }
 
 .about-details-container {
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
+
 }
 
 .about-containers,
@@ -329,6 +339,10 @@ section {
 
 #experience {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .experience-sub-title {
@@ -368,6 +382,7 @@ article .icon {
 
 #projects {
   position: relative;
+  width: 100%;
 }
 
 .color-container {
@@ -393,28 +408,35 @@ article .icon {
 }
 
 .projectsec{
-  height: 100vh;
+  height: 100%;
+  display: flex;
 }
 
 .wrapper{
-  height: 620px;
+  height: 100%;
   width: 100%;
   display: flex;
-  overflow-x: auto;
-  margin-top: 5vh;
-
-}
-
-.wrapper::-webkit-scrollbar{
-
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow:scroll;
 }
 
 .item{
+  padding-top: 2rem;
+  height: fit-content;
+  width: 300px;
+}
+
+.wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+/* .item{
   height: 590px;
   background-color: white;
   min-width: 375px;
   margin: 5px;
-}
+} */
 
 
 
@@ -428,10 +450,10 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 80vh;
 }
 
 .contact-info-upper-container {

@@ -48,13 +48,12 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 70vh;
-  }
-  #profile {
-    height: 83vh;
+  #contact, #profile {
+    height: 100vh;
     margin-bottom: 0;
+  }
+  section{
+    padding-top: 50px;
   }
   article {
     font-size: 1rem;
@@ -119,3 +118,4 @@
     width: 100%;
   }
 }
+
