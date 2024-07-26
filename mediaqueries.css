@@ -119,3 +119,8 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .about-details-container p{
+      font-size:x-large;
+  }
+}

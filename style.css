@@ -333,7 +333,7 @@ section {
 .details-container {
   padding: 0.5rem;
   flex: 1;
-  background: white;
+  background: #ffffff61;
   border-radius: 1.5rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
